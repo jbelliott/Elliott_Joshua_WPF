@@ -32,7 +32,7 @@ Sub-Problems:  There are two problems at work here, one to calculate the smalles
 
 Potential Solution:  To select a single matching pair, one would have to account for a most getting one sock from each color type plus one.  For example, with three colors of socks, you would never need more than four (three plus one) socks to make a matching pair.
 
-
+To guarantee at least one matching pair of each color, we would have to assume that at worst, a person would select each of the two colors that have the most pair plus one from the remaining number of pair.  With 5 black, 3 brown, 2 white, to guarantee a person has at least one pair of each color, one would have to pull enough socks to equate to 8 pair (5+3) plus 1.  All but two socks.
 
 
 
