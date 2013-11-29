@@ -36,7 +36,7 @@ To guarantee at least one matching pair of each color, we would have to assume t
 
 Evaluation: For the first problem, there are only three possible selections: black, brown, and white.  Assuming the worst case, a person could select all three of these colors without making a matching pair.  At the fourth selection, it is impossible to not have a matching pair.
 
-
+For the second problem, it operates on a larger scale but uses the same principle.  With 20 total socks, to get one of each matching pair, we’d have to look at the smallest number of colored pair—2 white pair, four total socks. This indicates that it would be possible to select 16 socks without ever getting a white sock.  Adding two white socks to that means a person could potentially pick 18 of the 20 socks before they would have one matching pair of each color.
 
 
 
