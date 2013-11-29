@@ -38,6 +38,10 @@ Evaluation: For the first problem, there are only three possible selections: bla
 
 For the second problem, it operates on a larger scale but uses the same principle.  With 20 total socks, to get one of each matching pair, we’d have to look at the smallest number of colored pair—2 white pair, four total socks. This indicates that it would be possible to select 16 socks without ever getting a white sock.  Adding two white socks to that means a person could potentially pick 18 of the 20 socks before they would have one matching pair of each color.
 
+Final Explanation: If you have 20 socks in a drawer, 10 black, 6 brown, and 4 white,  how many would you have to pick to get a single matching pair?  That number cannot be more than the number of colored pairs +1.  This solution works with the problem regardless of how many colored pair are in the drawer.  Even with 10 colored pair, a person cannot pick more than 11 socks without getting a matching pair.
+
+On the second part of the problem, it is possible to pick every sock from each type before picking a colored pair from the smallest number of pair.  In this case, the white socks are the smallest number of pair at two (four socks).  Then, add one pair from that last set to make 18 socks total before we can guarantee one of each color is picked.
+
 
 
 Predicting Fingers:
