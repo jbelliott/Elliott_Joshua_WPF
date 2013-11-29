@@ -1,1 +1,27 @@
-Joshua ElliottNovember 28, 2013Web Programming FundamentalsProblem Solving
+Joshua Elliott
+November 28, 2013
+Web Programming Fundamentals
+Problem Solving
+
+
+A Cat, A Parrot, and a Bag of Seed
+
+A man finds himself on a riverbank with a cat, a parrot and a bag of seed. He needs to transport all three to the other side of the river in his boat.  However, the boat has room for only the man himself and one other item (either the cat, parrot, or seed). In his absence, the cat could eat the parrot, and the parrot would eat the bag of seed.  Show how he can get all of the passengers to the other side, without leaving the wrong ones alone together.
+
+
+Socks in the Dark:
+
+There are 20 socks in a drawer:  5 pairs of black socks, 3 pairs of brown, and 2 pairs of white.  You select the socks in the dark and can check them only after a selection has been made.  What is the smallest number of socks you need to select to guarantee getting the following:
+
+a. At least one matching pair
+b. At least one matching pair of each color
+
+
+
+Predicting Fingers:
+
+A little girl counts using the fingers of her left hand as follows:  She starts by calling her thumb 1, the first finger 2, middle finger 3, ring finger 4, and little finger 5.  Then she reverses direction, calling the ring finger 6, middle finger 7, first finger 8, and thumb 9, after which she calls her first finger 10 and so on.  If she continues to count in this manner, on which finger will she stop?
+
+a. What if the girl counts from 1 to 10
+b. What if the girl counts from 1 to 100
+c. What if the girl counts from 1 to 1000
