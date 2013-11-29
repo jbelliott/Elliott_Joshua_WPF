@@ -48,6 +48,4 @@ Predicting Fingers:
 
 Someone is counting fingers starting on the thumb of the left hand, 1-5 (5 being the little finger), then reversing direction (ending on 9 at the thumb) before reversing direction again.  In this case, how would you determine what finger they would finish counting on going from 1-10, 1-100, then 1-1000?
 
-a. What if the girl counts from 1 to 10
-b. What if the girl counts from 1 to 100
-c. What if the girl counts from 1 to 1000
+Insights:  Counting back and forth on your fingers doesn’t equal 10, it ends at 9.   Each time afterward, it will only add 8 to the total since the starting finger will have been counted after the first round.  That helps create an algorithm that can be used to help with solving this problem.
