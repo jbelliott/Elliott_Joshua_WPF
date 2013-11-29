@@ -23,10 +23,8 @@ Final Explanation: First, the man must take the parrot across the river.  This l
 
 Socks in the Dark:
 
-There are 20 socks in a drawer:  5 pairs of black socks, 3 pairs of brown, and 2 pairs of white.  You select the socks in the dark and can check them only after a selection has been made.  What is the smallest number of socks you need to select to guarantee getting the following:
+The Problem: With 20 socks in a drawer, 10 pair total (5 black, 3 brown, 2 white).  By selecting socks in the dark, we are attempting to determine the smallest number of socks that can be selected before we can guarantee we have at least one matching pair.  Then again, but getting a matching pair of each color.
 
-a. At least one matching pair
-b. At least one matching pair of each color
 
 
 
