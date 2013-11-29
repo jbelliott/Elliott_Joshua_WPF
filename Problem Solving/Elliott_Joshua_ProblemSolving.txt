@@ -14,6 +14,8 @@ Goal:  Take items across the river with the man in his boat, one at a time, with
 
 Constraints and sub-goals:  The cat and parrot and parrot and seed cannot be left alone together.  Only one item can be taken by boat at a time.
 
+Potential Solution:  Move the parrot across the river.  Return alone.  Move the cat across the river. Return with the parrot.  Move the birdseed across the river. Return alone. Move the parrot across the river.
+
 
 Socks in the Dark:
 
