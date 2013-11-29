@@ -28,7 +28,7 @@ Insight:  This is an issue with statistics.  Guaranteeing matching sock pairs wi
 
 Goal: The goal is to pick the minimum number of  socks required to guarantee a matching pair and a matching pair of each color.
 
-
+Sub-Problems:  There are two problems at work here, one to calculate the smallest number of  socks to guarantee one matching pair, the second to guarantee one pair of each color.
 
 
 
