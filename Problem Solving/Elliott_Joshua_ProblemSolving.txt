@@ -6,7 +6,9 @@ Problem Solving
 
 A Cat, A Parrot, and a Bag of Seed
 
-A man finds himself on a riverbank with a cat, a parrot and a bag of seed. He needs to transport all three to the other side of the river in his boat.  However, the boat has room for only the man himself and one other item (either the cat, parrot, or seed). In his absence, the cat could eat the parrot, and the parrot would eat the bag of seed.  Show how he can get all of the passengers to the other side, without leaving the wrong ones alone together.
+The Problem: The man with a cat, parrot, and bag of seed cannot cross the river with all three items at the same time, but cannot leave the bird with the seed or cat with the bird.  The objective is to get all items across the river in tact with the man by making several trips.
+
+Insight: Any item can be left alone, but only one pair can be left together without consequence: the cat and birdseed.  This means the first trip must be the man and the parrot.
 
 
 Socks in the Dark:
