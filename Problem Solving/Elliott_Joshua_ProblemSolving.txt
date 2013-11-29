@@ -24,6 +24,7 @@ Final Explanation: First, the man must take the parrot across the river.  This l
 Socks in the Dark:
 
 The Problem: With 20 socks in a drawer, 10 pair total (5 black, 3 brown, 2 white).  By selecting socks in the dark, we are attempting to determine the smallest number of socks that can be selected before we can guarantee we have at least one matching pair.  Then again, but getting a matching pair of each color.
+Insight:  This is an issue with statistics.  Guaranteeing matching sock pairs will likely be calculated based on the number of socks and number of colors represented.
 
 
 
