@@ -30,6 +30,10 @@ Goal: The goal is to pick the minimum number of  socks required to guarantee a m
 
 Sub-Problems:  There are two problems at work here, one to calculate the smallest number of  socks to guarantee one matching pair, the second to guarantee one pair of each color.
 
+Potential Solution:  To select a single matching pair, one would have to account for a most getting one sock from each color type plus one.  For example, with three colors of socks, you would never need more than four (three plus one) socks to make a matching pair.
+
+
+
 
 
 Predicting Fingers:
