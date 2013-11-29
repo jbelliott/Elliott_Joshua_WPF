@@ -10,6 +10,8 @@ The Problem: The man with a cat, parrot, and bag of seed cannot cross the river 
 
 Insight: Any item can be left alone, but only one pair can be left together without consequence: the cat and birdseed.  This means the first trip must be the man and the parrot.
 
+Goal:  Take items across the river with the man in his boat, one at a time, without leaving the wrong two items together.
+
 
 Socks in the Dark:
 
