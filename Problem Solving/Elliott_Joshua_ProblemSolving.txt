@@ -53,3 +53,7 @@ Insights:  Counting back and forth on your fingers doesn’t equal 10, it ends at 
 Goal:  Develop a means of determining which finger someone counting will end on if continuously counting up from one and reversing direction when reaching the thumb or small finger.
 
 Sub-Goals: The solution needs to be able to predict where a person will finish counting at 10, 100, and 1000.
+
+Potential Solution: Counting in the way described, anything that ends in a tens digit will end on either the index finger or ring finger in a pattern of index (10), ring x2 (20 and 30), index x2 (40 and 50), etc. Just counting up like that will give us the 10 and 100 easily enough.  The tens digit would land on the index finger.  100 would land on the ring finger.  This puts the single digit on the little finger instead of the thumb, which implies it would reverse the counting order so that 200 would land on the index finger.  This would indicate 1000 would land on the index finger.
+
+
