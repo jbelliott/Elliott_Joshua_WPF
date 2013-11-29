@@ -16,6 +16,8 @@ Constraints and sub-goals:  The cat and parrot and parrot and seed cannot be lef
 
 Potential Solution:  Move the parrot across the river.  Return alone.  Move the cat across the river. Return with the parrot.  Move the birdseed across the river. Return alone. Move the parrot across the river.
 
+Evaluation:  Working through the problem, the items can be moved in this manner without violating the rules, and it results in the objective being met.
+
 
 Socks in the Dark:
 
