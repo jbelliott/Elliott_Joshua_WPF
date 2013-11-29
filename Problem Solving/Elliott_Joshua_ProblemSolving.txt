@@ -18,6 +18,8 @@ Potential Solution:  Move the parrot across the river.  Return alone.  Move the 
 
 Evaluation:  Working through the problem, the items can be moved in this manner without violating the rules, and it results in the objective being met.
 
+Final Explanation: First, the man must take the parrot across the river.  This leaves the cat and seed—the only two items that can be left alone together.  He returns alone to the original shore and picks up the cat, leaving the birdseed alone.  When he makes the other shore, he cannot leave these two items alone, so he will leave the cat and take the parrot back with him on the return trip.  He will swap the parrot for the seed and make his trip back across again, leaving the seed with the cat on the far bank of the river.  His return trip is made alone.  He picks up the parrot and makes his final trip across the river.
+
 
 Socks in the Dark:
 
