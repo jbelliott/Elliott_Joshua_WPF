@@ -50,4 +50,6 @@ Someone is counting fingers starting on the thumb of the left hand, 1-5 (5 being
 
 Insights:  Counting back and forth on your fingers doesn’t equal 10, it ends at 9.   Each time afterward, it will only add 8 to the total since the starting finger will have been counted after the first round.  That helps create an algorithm that can be used to help with solving this problem.
 
-Goal:  Develop a means of determining  which finger someone counting will end on if continuously counting up from one and reversing direction when reaching the thumb or small finger.
+Goal:  Develop a means of determining which finger someone counting will end on if continuously counting up from one and reversing direction when reaching the thumb or small finger.
+
+Sub-Goals: The solution needs to be able to predict where a person will finish counting at 10, 100, and 1000.
