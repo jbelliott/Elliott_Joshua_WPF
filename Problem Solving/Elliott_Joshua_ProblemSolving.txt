@@ -34,6 +34,10 @@ Potential Solution:  To select a single matching pair, one would have to account
 
 To guarantee at least one matching pair of each color, we would have to assume that at worst, a person would select each of the two colors that have the most pair plus one from the remaining number of pair.  With 5 black, 3 brown, 2 white, to guarantee a person has at least one pair of each color, one would have to pull enough socks to equate to 8 pair (5+3) plus 1.  All but two socks.
 
+Evaluation: For the first problem, there are only three possible selections: black, brown, and white.  Assuming the worst case, a person could select all three of these colors without making a matching pair.  At the fourth selection, it is impossible to not have a matching pair.
+
+
+
 
 
 Predicting Fingers:
