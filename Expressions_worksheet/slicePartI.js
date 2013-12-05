@@ -3,7 +3,7 @@
 //Expression Worksheet: A Slice of Pie, Part I
 
 
-var partyGoers = 14;  //The number of people attending the party
+var partyGoers = 13;  //The number of people attending the party
 var slicesPerPie = 8;  //The number of slices per pizza
 var totalPizzas = 7;   //The total number of pizzas brought to the party
 
