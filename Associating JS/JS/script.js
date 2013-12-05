@@ -1,0 +1,1 @@
+alert("Amber is the most beautiful, lucky woman in the world!");
