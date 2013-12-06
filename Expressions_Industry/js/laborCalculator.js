@@ -16,11 +16,11 @@ var avgHourly = prompt("What is your store's average hourly wage? \(type 0 for h
 //possibly offer a calculation for average hourly rate??
 if (avgHourly = 0);
 {
-  var employees = prompt("How many employees do you have?");
-    var totalHourly = prompt("Add all of the hourly rates together and type the total.");
-    totalHourly /= employees;
-    alert("The average hourly rate is $" + totalHourly);
-    avgHourly = totalHourly;
+  var employees = prompt("How many employees do you have?");  //Total number of crew members
+    var totalHourly = prompt("Add all of the hourly rates together and type the total.");  //Cumbersome, but prevents having to enter each rate manually
+    totalHourly /= employees; //calculates the average hourly rate
+    alert("The average hourly rate is $" + totalHourly);  //return the value for the user
+    avgHourly = totalHourly;  //assign value to avgHourly variable
 }
 
 //This section will calculate the results
