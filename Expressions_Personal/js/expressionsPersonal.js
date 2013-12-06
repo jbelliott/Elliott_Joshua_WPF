@@ -15,9 +15,9 @@ cansPerShift[2] = prompt("How many cans of soda would you like per 12 hour shift
 
 //collect the data in these variables
 var hoursArray = new Array(); //define array
-hoursArray[0] = prompt("One can of soda is taken for a 4 hour shift. \nHow many 4 hour shifts do you have this week?"); //Establish short shifts
-hoursArray[1] = prompt("Two cans of soda are taken for an 8 hour shift. \nHow many 8 hour shifts do you have this week?"); //Establish mid shifts
-hoursArray[2] = prompt("Four cans of soda are taken for a 12 hour day. \nHow many 12 hour shifts do you have this week?"); //Establish long shifts
+hoursArray[0] = prompt("How many 4 hour shifts do you have this week?"); //Establish short shifts
+hoursArray[1] = prompt("How many 8 hour shifts do you have this week?"); //Establish mid shifts
+hoursArray[2] = prompt("How many 12 hour shifts do you have this week?"); //Establish long shifts
 
 //test array
 alert(hoursArray[0] + hoursArray[1] + hoursArray[2]);
