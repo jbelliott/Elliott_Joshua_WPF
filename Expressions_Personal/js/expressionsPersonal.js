@@ -19,8 +19,6 @@ hoursArray[0] = prompt("How many 4 hour shifts do you have this week?"); //Estab
 hoursArray[1] = prompt("How many 8 hour shifts do you have this week?"); //Establish mid shifts
 hoursArray[2] = prompt("How many 12 hour shifts do you have this week?"); //Establish long shifts
 
-//test array
-alert(hoursArray[0] + hoursArray[1] + hoursArray[2]);
 
 //calculate the data here
 var totalCans = (hoursArray[0] * cansPerShift[0]) + (hoursArray[1] * cansPerShift[1]) + (hoursArray[2] * cansPerShift[2]); //Calculate how many cans of soda will be needed.
