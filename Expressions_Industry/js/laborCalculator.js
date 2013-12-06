@@ -3,6 +3,7 @@
 //Expressions:  Industry
 
 //The purpose of this script is to calculate how many crew labor hours are available for a schedule week
+alert("The purpose of this script is to calculate how many payroll hours are available for a schedule week.");
 
 //This section will collect the user's data
 var forecast;
