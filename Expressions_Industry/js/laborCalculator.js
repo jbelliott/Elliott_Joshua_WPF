@@ -6,11 +6,11 @@
 alert("The purpose of this script is to calculate how many payroll hours are available for a schedule week, rounded to the nearest whole hour.");
 
 //This section will collect the user's data
-var forecast = prompt("What is the sales forecast for the week \(in dollars\)?");
-var laborPer = prompt("What is your target crew labor percentage?");
+var forecast = prompt("What is the sales forecast for the week \(in dollars\)?"); //Total expected sales for the week
+var laborPer = prompt("What is your target crew labor percentage?"); //Pennies per dollar allowed to be spent on crew labor
 percentage = laborPer / 100;   //convert to a decimal for percentage calculations
 
-var avgHourly = prompt("What is your store's average hourly wage? \(type 0 for help calculating\)",0);
+var avgHourly = prompt("What is your store's average hourly wage? \(type 0 for help calculating\)",0); //Capture if know or redirect for help
 
 
 //possibly offer a calculation for average hourly rate??
