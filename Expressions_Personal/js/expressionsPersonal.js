@@ -19,12 +19,11 @@ hoursArray[0] = prompt("How many 4 hour shifts do you have this week?"); //Estab
 hoursArray[1] = prompt("How many 8 hour shifts do you have this week?"); //Establish mid shifts
 hoursArray[2] = prompt("How many 12 hour shifts do you have this week?"); //Establish long shifts
 
-
 //calculate the data here
 var totalCans = (hoursArray[0] * cansPerShift[0]) + (hoursArray[1] * cansPerShift[1]) + (hoursArray[2] * cansPerShift[2]); //Calculate how many cans of soda will be needed.
 
 //print to console
-console.log("You will need " + totalCans + " of soda this week if you are working " + hoursArray[0] + " 4-hr shift\(s\), " + hoursArray[1] + " 8-hr shift\(s\), and " + hoursArray[2] + " 12-hr shift\(s\).");
+console.log("You will need " + totalCans + " cans of soda this week if you are working " + hoursArray[0] + " four hour shift\(s\), " + hoursArray[1] + " eight hour shift\(s\), and " + hoursArray[2] + " twelve hour shift\(s\).");
 
 //print to alert for testing
-alert("You will need " + totalCans + " of soda this week if you are working " + hoursArray[0] + " 4-hr shift\(s\), " + hoursArray[1] + " 8-hr shift\(s\), and " + hoursArray[2] + " 12-hr shift\(s\).");
+alert("You will need " + totalCans + " cans of soda this week if you are working " + hoursArray[0] + " four hour shift\(s\), " + hoursArray[1] + " eight hour shift\(s\), and " + hoursArray[2] + " twelve hour shift\(s\).");
