@@ -13,26 +13,14 @@ alert("The purpose of this script is to calculate how many payroll hours are ava
 var forecast = prompt("What is the sales forecast for the week \(in dollars\)?"); //Total expected sales for the week
 var laborPer = prompt("What is your target crew labor percentage?"); //Pennies per dollar allowed to be spent on crew labor
 percentage = laborPer / 100;   //convert to a decimal for percentage calculations
-var avgHourly = prompt("What is your store's average hourly wage? \n\(type 0 for help calculating\)",0); //Capture if know or redirect for help
-
-
-//possibly offer a calculation for average hourly rate??
-
-if (avgHourly = 0);
-{
-  var employees = prompt("How many employees do you have?");  //Total number of crew members
-    var totalHourly = prompt("Add all of the hourly rates together and type the total.");  //Cumbersome, but prevents having to enter each rate manually
-    totalHourly /= employees; //calculates the average hourly rate
-    avgHourly = Math.round(totalHourly *100) / 100;  //assign value to avgHourly variable to 2 decimal places
-    alert("the average hourly rate is $" + avgHourly); //return the value for the user
-}
+var avgHourly = prompt("What is your store's average hourly wage?"); //Average of what crew members earn per hour
 
 //This section will calculate the results
-avgHourly = Math.round(totalHourly * 100) / 100; //rounds to 2 decimal places if not calculated using conditional expression
+
 var availHours = forecast * percentage / avgHourly; //calculate the available number of hours
 availHours = Math.round(availHours);  //round the value to the nearest whole number to prevent partial hours
 
 //This section will print the results
 
 //print to console
-console.log("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " hours to spend this week.");
+alert("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " hours to spend this week.");
