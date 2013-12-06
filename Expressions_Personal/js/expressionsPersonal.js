@@ -26,7 +26,7 @@ alert(hoursArray[0] + hoursArray[1] + hoursArray[2]);
 var totalCans = (hoursArray[0] * cansPerShift[0]) + (hoursArray[1] * cansPerShift[1]) + (hoursArray[2] * cansPerShift[2]); //Calculate how many cans of soda will be needed.
 
 //print to console
-console.log("You will need " + totalCans + " of soda this week if you are working " + shortDay + " 4-hr shift\(s\), " + midDay + " 8-hr shift\(s\), and " + longDay + " 12-hr shift\(s\).");
+console.log("You will need " + totalCans + " of soda this week if you are working " + hoursArray[0] + " 4-hr shift\(s\), " + hoursArray[1] + " 8-hr shift\(s\), and " + hoursArray[2] + " 12-hr shift\(s\).");
 
 //print to alert for testing
-alert("You will need " + totalCans + " of soda this week if you are working " + shortDay + " 4-hr shift\(s\), " + midDay + " 8-hr shift\(s\), and " + longDay + " 12-hr shift\(s\).");
+alert("You will need " + totalCans + " of soda this week if you are working " + hoursArray[0] + " 4-hr shift\(s\), " + hoursArray[1] + " 8-hr shift\(s\), and " + hoursArray[2] + " 12-hr shift\(s\).");
