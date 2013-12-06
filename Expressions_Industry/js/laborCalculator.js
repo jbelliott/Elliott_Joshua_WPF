@@ -24,8 +24,8 @@ if (avgHourly = 0);
 }
 
 //This section will calculate the results
-var availHours = forecast * percentage / avgHourly;
-availHours = Math.round(availHours);
+var availHours = forecast * percentage / avgHourly; //calculate the available number of hours
+availHours = Math.round(availHours);  //round the value to the nearest whole number to prevent partial hours
 
 
 //This section will print the results
