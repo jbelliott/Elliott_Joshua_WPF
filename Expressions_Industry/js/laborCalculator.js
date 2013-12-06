@@ -23,8 +23,8 @@ if (avgHourly = 0);
   var employees = prompt("How many employees do you have?");  //Total number of crew members
     var totalHourly = prompt("Add all of the hourly rates together and type the total.");  //Cumbersome, but prevents having to enter each rate manually
     totalHourly /= employees; //calculates the average hourly rate
-    alert("The average hourly rate is $" + totalHourly);  //return the value for the user
-    avgHourly = totalHourly;  //assign value to avgHourly variable
+    avgHourly = Math.round(totalHourly *100) / 100;  //assign value to avgHourly variable
+    alert("the average hourly rate is $" + avgHourly); //return the value for the user
 }
 
 //This section will calculate the results
@@ -35,6 +35,6 @@ availHours = Math.round(availHours);  //round the value to the nearest whole num
 //This section will print the results
 
 //print to console
-console.log("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " to spend this week.");
+console.log("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " hours to spend this week.");
 //print to alert
-alert("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " to spend this week.");
+alert("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " hours to spend this week.");
