@@ -10,7 +10,7 @@ var midDay = prompt("Two cans of soda are taken for an 8 hour shift. \nHow many 
 var longDay = prompt("Four cans of soda are taken for a 12 hour day. \nHow many 12 hour shifts do you have this week?"); //Establish long shifts
 
 //calculate the data here
-var totalCans = (1 * shortDay) + (2 * midDay) + (4 * longDay);
+var totalCans = (1 * shortDay) + (2 * midDay) + (4 * longDay); //Calculate how many cans of soda will be needed.
 
 //print to console
 console.log("You will need " + totalCans + " this week if you are working " + shortDay + " 4-hr shift\(s\), " + midDay + " 8-hr shift\(s\), and " + longDay + " 12-hr shift\(s\).");
