@@ -23,12 +23,12 @@ if (avgHourly = 0);
   var employees = prompt("How many employees do you have?");  //Total number of crew members
     var totalHourly = prompt("Add all of the hourly rates together and type the total.");  //Cumbersome, but prevents having to enter each rate manually
     totalHourly /= employees; //calculates the average hourly rate
-    avgHourly = Math.round(totalHourly *100) / 100;  //assign value to avgHourly variable
+    avgHourly = Math.round(totalHourly *100) / 100;  //assign value to avgHourly variable to 2 decimal places
     alert("the average hourly rate is $" + avgHourly); //return the value for the user
 }
 
 //This section will calculate the results
-
+avgHourly = Math.round(totalHourly * 100) / 100; //rounds to 2 decimal places if not calculated using conditional expression
 var availHours = forecast * percentage / avgHourly; //calculate the available number of hours
 availHours = Math.round(availHours);  //round the value to the nearest whole number to prevent partial hours
 
