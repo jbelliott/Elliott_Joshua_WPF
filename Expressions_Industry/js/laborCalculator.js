@@ -23,4 +23,4 @@ availHours = Math.round(availHours);  //round the value to the nearest whole num
 //This section will print the results
 
 //print to console
-alert("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " hours to spend this week.");
+console.log("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " hours to spend this week.");
