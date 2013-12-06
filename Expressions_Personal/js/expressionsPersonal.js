@@ -10,7 +10,10 @@ var midDay;
 var longDay;
 
 //calculate the data here
-
+var totalCans = (1 * shortDay) + (2 * midDay) + (4 * longDay);
 
 //print to console
 console.log(totalCans);
+
+//print to alert for testing
+alert(totalCans);
