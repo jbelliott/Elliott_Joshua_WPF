@@ -4,6 +4,8 @@
 
 //This script will help me determine how many cases of soda I will need to buy for my week
 
+alert("This script will determine how many cans of soda you need this week based on the number and length of shifts worked.");
+
 //Cans of Soda per type of shift
 
 var shortDay = 1; //1 can of soda for a short day
