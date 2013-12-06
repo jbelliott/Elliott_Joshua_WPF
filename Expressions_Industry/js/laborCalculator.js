@@ -6,9 +6,10 @@
 alert("The purpose of this script is to calculate how many payroll hours are available for a schedule week.");
 
 //This section will collect the user's data
-var forecast;
-var laborPer;
-var avgHourly;
+var forecast = prompt("What is the sales forecast for the week \(in dollars\)?");
+var laborPer = prompt("What is your target crew labor percentage?");
+var avgHourly = prompt("What is your store's average hourly wage?");
+
 
 //possibly offer a calculation for average hourly rate??
 
