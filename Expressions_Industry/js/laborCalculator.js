@@ -8,7 +8,7 @@ alert("The purpose of this script is to calculate how many payroll hours are ava
 //This section will collect the user's data
 var forecast = prompt("What is the sales forecast for the week \(in dollars\)?");
 var laborPer = prompt("What is your target crew labor percentage?");
-laborPer /= 100;   //convert to a decimal for percentage calculations
+percentage = laborPer / 100;   //convert to a decimal for percentage calculations
 
 var avgHourly = prompt("What is your store's average hourly wage? \(type 0 for help calculating\)",0);
 
@@ -24,9 +24,13 @@ if (avgHourly = 0);
 }
 
 //This section will calculate the results
-var availHours = forecast * laborPer / avgHourly;
+var availHours = forecast * percentage / avgHourly;
 
 
 //This section will print the results
-console.log(availHours);
-alert(availHours);
+
+//print to console
+console.log("With a forecast of " + forecast ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " to spend this week.");
+
+//print to alert
+alert("With a forecast of " + forecast ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " to spend this week.");
