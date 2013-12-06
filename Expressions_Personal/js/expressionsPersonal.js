@@ -9,9 +9,9 @@ alert("This script will determine how many cans of soda you need this week based
 //Cans of Soda per type of shift
 
 var cansPerShift = new Array();
-var shortDay = 1; //1 can of soda for a short day
-var midDay = 2; //2 cans of soda for a regular day
-var longDay = 4; //4 cans of soda for a long day...very long day
+cansPerShift[0] = 1; //1 can of soda for a short day
+cansPerShift[1] = 2; //2 cans of soda for a regular day
+cansPerShift[2] = 4; //4 cans of soda for a long day...very long day
 
 //collect the data in these variables
 var hoursArray = new Array(); //define array
