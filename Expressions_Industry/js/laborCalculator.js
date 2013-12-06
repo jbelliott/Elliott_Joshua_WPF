@@ -20,5 +20,5 @@ var availHours = forecast * laborPer / avgHourly;
 
 
 //This section will print the results
-console.log();
-alert();
+console.log(availHours);
+alert(availHours);
