@@ -3,7 +3,7 @@
 //Expressions:  Industry
 
 //The purpose of this script is to calculate how many crew labor hours are available for a schedule week
-alert("The purpose of this script is to calculate how many payroll hours are available for a schedule week.");
+alert("The purpose of this script is to calculate how many payroll hours are available for a schedule week, rounded to the nearest whole hour.");
 
 //This section will collect the user's data
 var forecast = prompt("What is the sales forecast for the week \(in dollars\)?");
@@ -25,6 +25,8 @@ if (avgHourly = 0);
 
 //This section will calculate the results
 var availHours = forecast * percentage / avgHourly;
+availHours = Math.round(availHours);
+
 
 //This section will print the results
 
