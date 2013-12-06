@@ -10,10 +10,18 @@ var forecast = prompt("What is the sales forecast for the week \(in dollars\)?")
 var laborPer = prompt("What is your target crew labor percentage?");
 laborPer /= 100;   //convert to a decimal for percentage calculations
 
-var avgHourly = prompt("What is your store's average hourly wage?");
+var avgHourly = prompt("What is your store's average hourly wage? \(type 0 for help calculating\)",0);
 
 
 //possibly offer a calculation for average hourly rate??
+if (avgHourly = 0);
+{
+  var employees = prompt("How many employees do you have?");
+    var totalHourly = prompt("Add all of the hourly rates together and type the total.");
+    totalHourly /= employees;
+    alert("The average hourly rate is $" + totalHourly);
+    avgHourly = totalHourly;
+}
 
 //This section will calculate the results
 var availHours = forecast * laborPer / avgHourly;
