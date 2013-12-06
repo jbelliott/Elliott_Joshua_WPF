@@ -26,11 +26,10 @@ if (avgHourly = 0);
 //This section will calculate the results
 var availHours = forecast * percentage / avgHourly;
 
-
 //This section will print the results
 
 //print to console
-console.log("With a forecast of " + forecast ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " to spend this week.");
+console.log("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " to spend this week.");
 
 //print to alert
-alert("With a forecast of " + forecast ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " to spend this week.");
+alert("With a forecast of " + forecast + ", a crew percentage of " + laborPer + "%, and an average hourly rate of $" + avgHourly + ", you will have " + availHours + " to spend this week.");
