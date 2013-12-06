@@ -2,7 +2,7 @@
 //5 December 2013
 //Expressions: Personal
 
-//This script will help me determine how many cases of soda I will need to buy for my week
+//This script will help me determine how many cases of soda I will need to buy for my work week
 
 alert("This script will determine how many cans of soda you need this week based on the number and length of shifts worked.");
 
@@ -24,6 +24,3 @@ var totalCans = (hoursArray[0] * cansPerShift[0]) + (hoursArray[1] * cansPerShif
 
 //print to console
 console.log("You will need " + totalCans + " cans of soda this week if you are working " + hoursArray[0] + " four hour shift\(s\), " + hoursArray[1] + " eight hour shift\(s\), and " + hoursArray[2] + " twelve hour shift\(s\).");
-
-//print to alert for testing
-alert("You will need " + totalCans + " cans of soda this week if you are working " + hoursArray[0] + " four hour shift\(s\), " + hoursArray[1] + " eight hour shift\(s\), and " + hoursArray[2] + " twelve hour shift\(s\).");
