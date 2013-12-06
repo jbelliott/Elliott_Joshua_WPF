@@ -11,9 +11,13 @@ var midDay;
 var longDay;
 
 //collect the data in these variables
-var hoursArray[0] = prompt("One can of soda is taken for a 4 hour shift. \nHow many 4 hour shifts do you have this week?"); //Establish short shifts
-var hoursArray[1] = prompt("Two cans of soda are taken for an 8 hour shift. \nHow many 8 hour shifts do you have this week?"); //Establish mid shifts
-var hoursArray[2] = prompt("Four cans of soda are taken for a 12 hour day. \nHow many 12 hour shifts do you have this week?"); //Establish long shifts
+var hoursArray = new Array(); //define array
+hoursArray[0] = prompt("One can of soda is taken for a 4 hour shift. \nHow many 4 hour shifts do you have this week?"); //Establish short shifts
+hoursArray[1] = prompt("Two cans of soda are taken for an 8 hour shift. \nHow many 8 hour shifts do you have this week?"); //Establish mid shifts
+hoursArray[2] = prompt("Four cans of soda are taken for a 12 hour day. \nHow many 12 hour shifts do you have this week?"); //Establish long shifts
+
+//test array
+alert(hoursArray[0] + hoursArray[1] + hoursArray[2]);
 
 //calculate the data here
 var totalCans = (1 * shortDay) + (2 * midDay) + (4 * longDay); //Calculate how many cans of soda will be needed.
