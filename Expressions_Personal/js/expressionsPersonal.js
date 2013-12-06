@@ -20,7 +20,7 @@ hoursArray[2] = prompt("Four cans of soda are taken for a 12 hour day. \nHow man
 alert(hoursArray[0] + hoursArray[1] + hoursArray[2]);
 
 //calculate the data here
-var totalCans = (1 * shortDay) + (2 * midDay) + (4 * longDay); //Calculate how many cans of soda will be needed.
+var totalCans = (hoursArray[0] * shortDay) + (hoursArray[1] * midDay) + (hoursArray[2] * longDay); //Calculate how many cans of soda will be needed.
 
 //print to console
 console.log("You will need " + totalCans + " this week if you are working " + shortDay + " 4-hr shift\(s\), " + midDay + " 8-hr shift\(s\), and " + longDay + " 12-hr shift\(s\).");
