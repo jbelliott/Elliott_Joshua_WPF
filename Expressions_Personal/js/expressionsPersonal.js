@@ -13,7 +13,7 @@ var longDay = prompt("Four cans of soda are taken for a 12 hour day. \nHow many 
 var totalCans = (1 * shortDay) + (2 * midDay) + (4 * longDay);
 
 //print to console
-console.log(totalCans);
+console.log("You will need " + totalCans + " this week if you are working " + shortDay + " 4-hr shift\(s\), " + midDay + " 8-hr shift\(s\), and " + longDay + " 12-hr shift\(s\).");
 
 //print to alert for testing
-alert(totalCans);
+alert("You will need " + totalCans + " this week if you are working " + shortDay + " 4-hr shift\(s\), " + midDay + " 8-hr shift\(s\), and " + longDay + " 12-hr shift\(s\).");
