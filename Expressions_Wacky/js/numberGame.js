@@ -22,5 +22,4 @@ var guessNumber = 0 + Number(numberGame[0]) - Number(numberGame[1]) + Number(num
 
 
 //Print results of number game
-alert("Concentrate, " + userName + "...the number you are currently thinking of is " + guessNumber + "!");
 console.log("Concentrate, " + userName + "...the number you are currently thinking of is " + guessNumber + "!");
