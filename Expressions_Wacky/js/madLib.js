@@ -7,8 +7,16 @@
 
 //User data for mad lib
 
+alert("We're going to do a mad lib!");
+var madLibs = new Array();
+
+
+
+
 
 //User data for number game
+var numberGame = new Array();
+
 
 
 //Print results of mad lib
