@@ -23,3 +23,5 @@ var guessNumber = 0 + Number(numberGame[0]) - Number(numberGame[1]) + Number(num
 
 //Print results of number game
 console.log("Concentrate, " + userName + "...the number you are currently thinking of is " + guessNumber + "!");
+
+//The number selected does not matter.  Call it x.  Since "the number you started with" is subtracted from the equation, all that counts are the variables provided by the user.
