@@ -9,9 +9,9 @@
 
 alert("Now this script will guess a number you are thinking of!  First, we need three numbers from you.");  //Description of script
 var numberGame = new Array();   //Create array function
-numberGame[0] = prompt("\(1\) Please select a number from 1-10");   //Part of the calculation
-numberGame[1] = prompt("\(2\) Please select a number from 1-10");   //Part of the calculation
-numberGame[2] = prompt("\(3\) Please select a number from 1-10");   //Part of the calculation
+numberGame[0] = prompt("\(1\) Please select a number from 1-10");   //Will be added to the guessed number
+numberGame[1] = prompt("\(2\) Please select a number from 1-10");   //Will be subtracted from total
+numberGame[2] = prompt("\(3\) Please select a number from 1-10");   //Will be added to the total
 
 var userName = prompt("And finally, please enter your name.");   //Takes the name of the user to personalize the greeting
 
