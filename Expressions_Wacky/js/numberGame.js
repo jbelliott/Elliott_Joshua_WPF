@@ -13,7 +13,7 @@ numberGame[0] = prompt("\(1\)Please select a number from 1-10");   //Part of the
 numberGame[1] = prompt("\(2\)Please select a number from 1-10");   //Part of the calculation
 numberGame[2] = prompt("\(3\)Please select a number from 1-10");   //Part of the calculation
 
-var userName = prompt("Please enter your name.");   //Takes the name of the user to personalize the greeting
+var userName = prompt("And finally, please enter your name.");   //Takes the name of the user to personalize the greeting
 
 alert("Ok, " + userName + ", pick a number from 1-10, but keep it to yourself.\nAdd " + numberGame[0] + " to it.\nSubtract " + numberGame[1] + " from the total.\nAdd " + numberGame[2] + " to your total.\nSubtract the number you originally started with, then get ready!"); //Alert to take user through calculation
 
