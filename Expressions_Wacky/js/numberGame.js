@@ -8,13 +8,14 @@
 //User data for number game
 var numberGame = new Array();
 
-alert("Now this script will guess a number you are thinking of!\nFirst, we need four numbers from you.");
+alert("Now this script will guess a number you are thinking of!\nFirst, we need three numbers from you.");
 numberGame[0] = prompt("\(1\)Please select a number from 1-10");
 numberGame[1] = prompt("\(2\)Please select a number from 1-10");
 numberGame[2] = prompt("\(3\)Please select a number from 1-10");
-numberGame[3] = Prompt("\(4\)Please select a number from 1-10");
 
+var userName = prompt("Please enter your name.");
 
+alert("Pick a number from 1-10, but keep it to yourself.\nAdd " + numberGame[0] + " to it.\nSubtract")
 
 
 //Print results of mad lib
