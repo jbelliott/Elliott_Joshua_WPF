@@ -17,6 +17,8 @@ var userName = prompt("Please enter your name.");
 
 alert("Ok, " + userName + ", pick a number from 1-10, but keep it to yourself.\nAdd " + numberGame[0] + " to it.\nSubtract " + numberGame[1] + " from the total.\nAdd " + numberGame[2] + " to your total.\nSubtract the number you originally started with, then get ready!");
 
+//Calculation
+var guessNumber = numberGame[0] - numberGame[1] + numberGame[2];
 
 
 //Print results of number game
