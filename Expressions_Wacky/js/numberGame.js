@@ -15,7 +15,8 @@ numberGame[2] = prompt("\(3\)Please select a number from 1-10");
 
 var userName = prompt("Please enter your name.");
 
-alert("Pick a number from 1-10, but keep it to yourself.\nAdd " + numberGame[0] + " to it.\nSubtract")
+alert("Pick a number from 1-10, but keep it to yourself.\nAdd " + numberGame[0] + " to it.\nSubtract " + numberGame[1] + " from the total.\nAdd " + numberGame[2] + " to your total.\nSubtract the number you originally started with, then get ready!");
+
 
 
 //Print results of mad lib
