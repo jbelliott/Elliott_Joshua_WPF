@@ -23,4 +23,5 @@ var guessNumber = numberGame[0] - numberGame[1] + numberGame[2];
 
 //Print results of number game
 alert("Concentrate...the number you are thinking of is " + guessNumber + "!");
+console.log("Concentrate...the number you are thinking of it " + guessNumber + "!");
 
