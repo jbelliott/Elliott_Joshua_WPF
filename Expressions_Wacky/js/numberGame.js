@@ -7,7 +7,7 @@
 
 //User data for number game...can it guess the number you are thinking of?
 
-alert("Now this script will guess a number you are thinking of!  First, we need three numbers from you.");  //Description of script
+alert("Welcome! Want to play a game? This script will guess a number you are thinking of!  First, we need three numbers from you.");  //Description of script
 var numberGame = new Array();   //Create array function
 numberGame[0] = prompt("\(1\) Please select a number from 1-10");   //Will be added to the guessed number
 numberGame[1] = prompt("\(2\) Please select a number from 1-10");   //Will be subtracted from total
