@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="44" selection-start="105" selection-end="105" vertical-scroll-proportion="0.08415147" vertical-offset="0" max-vertical-offset="713">
+            <state line="4" column="44" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numberGame.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="numberGame.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/numberGame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="22" column="78" selection-start="946" selection-end="946" vertical-scroll-proportion="0.4558011" vertical-offset="0" max-vertical-offset="724">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/madLib.js" />
-        <option value="$PROJECT_DIR$/js/numberGame.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/numberGame.js" />
       </list>
     </option>
   </component>
@@ -229,19 +229,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/numberGame.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="4" column="44" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/numberGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="105" selection-end="105" vertical-scroll-proportion="0.08415147" vertical-offset="0" max-vertical-offset="713">
-          <folding />
+        <state line="22" column="78" selection-start="946" selection-end="946" vertical-scroll-proportion="0.4558011" vertical-offset="0" max-vertical-offset="724">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

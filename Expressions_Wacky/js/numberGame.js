@@ -20,5 +20,5 @@ alert("Ok, " + userName + ", pick a number from 1-10, but keep it to yourself.\n
 
 
 //Print results of number game
-
+alert("Concentrate...the number you are thinking of is " + guessNumber + "!");
 
