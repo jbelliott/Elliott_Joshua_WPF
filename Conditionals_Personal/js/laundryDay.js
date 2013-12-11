@@ -7,9 +7,15 @@ Conditionals: Personal
 
 
 //Define and prompt user for information: number of outfits, number of shifts
+var numberOutfits;
+var numberShifts;
 
+//Calculation to determine if user has enough outfits
+var doLaundry = numberShifts - numberOutfits;
 
-//Basic conditional argument to determine if the user needs to do laundry
-
-
-//Return result
+//Basic conditional argument to tell user if they need to do laundry or not, return result
+if (doLaundry <= 0){
+    console.log("You do not need to do laundry today.")
+}else{
+    console.log("You will run out of laundry in " + doLaundry + " days. Grab the detergent and get cracking!")
+}
