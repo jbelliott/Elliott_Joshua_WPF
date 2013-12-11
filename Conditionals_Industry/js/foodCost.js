@@ -9,7 +9,7 @@ Conditionals: Industry
 
 var netSales = prompt("Please enter your net sales for the week.");
 if (netSales == ""){
-    netSales = prompt("You must enter your net sales to continue!" 10000);
+    netSales = prompt("You must enter your net sales to continue!", 10000);
     if (netSales == ""){
         alert("We are declaring net sales to be $10,000.");
         netSales = 10000;
@@ -17,9 +17,9 @@ if (netSales == ""){
 }
 var inventoryActual = prompt("Please enter the value of your inventory used this week.");
 if (inventoryActual == ""){
-    inventoryActual = prompt("You must enter your actual closing inventory dollars to continue!" 2500);
+    inventoryActual = prompt("You must enter your actual closing inventory dollars to continue!", 2500);
     if (inventoryActual == ""){
-        alert("We will assume that you used $1000 this week.");
+        alert("We will assume that you used $2500 this week.");
         inventoryActual = 2500;
     }
 }
