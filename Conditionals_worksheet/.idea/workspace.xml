@@ -23,11 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index3.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index3.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="36" selection-start="104" selection-end="104" vertical-scroll-proportion="0.08415147" vertical-offset="0" max-vertical-offset="713">
+            <state line="9" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ticketPrice.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/ticketPrice.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="44" selection-start="222" selection-end="222" vertical-scroll-proportion="0.18317503" vertical-offset="0" max-vertical-offset="737">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,6 +58,7 @@
         <option value="$PROJECT_DIR$/js/checkLogin.js" />
         <option value="$PROJECT_DIR$/js/gasCheck.js" />
         <option value="$PROJECT_DIR$/index3.html" />
+        <option value="$PROJECT_DIR$/js/ticketPrice.js" />
       </list>
     </option>
   </component>
@@ -97,6 +109,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,8 +228,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="104" selection-end="104" vertical-scroll-proportion="0.08415147" vertical-offset="0" max-vertical-offset="713">
+        <state line="9" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ticketPrice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="44" selection-start="222" selection-end="222" vertical-scroll-proportion="0.18317503" vertical-offset="0" max-vertical-offset="737">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
