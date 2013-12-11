@@ -9,4 +9,13 @@ Conditionals Worksheet: Group 3
 var userAge = prompt("Please enter your age.");
 var movieTime = prompt("Please enter the time of your movie.");
 
+//Evaluate conditional statements
+if (userAge <10 || userAge >=55){
+    ticketPrice = 7;
+}else if(movieTime >= 3 && movieTime <=5){
+    ticketPrice = 7;
+}else{
+    ticketPrice=12;
+}
 //Return cost of ticket based on information
+alert("Your ticket price is $" + ticketPrice);
