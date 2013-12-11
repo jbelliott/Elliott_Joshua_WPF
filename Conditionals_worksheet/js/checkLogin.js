@@ -3,14 +3,9 @@
 Conditionals Worksheet: Group 2
  */
 
-//username, pw, correct user, correct pw
-
-
-//welcome, username!   user not found. try again. password does not match our records
-
 //Correct username and password
 var correctUsername = "drwho";
-var correctPw = "tardis123";
+var correctPass = "tardis123";
 
 //Prompt for username and password
 
@@ -19,10 +14,10 @@ var enterPW = prompt("Please enter your password.");
 
 //Conditional test of user information
 
-if (enterUsername === correctUsername && enterPW === correctPW){
-    true
+if (enterUsername === correctUsername && enterPW === correctPass){
+    console.log("Welcome, " + correctUsername + "!");
 }else if(enterUsername === correctUsername){
-    pw false
+    console.log("Password does not match our records.");
 }else{
-    user false
+    console.log("User not found. Try again.");
 }
