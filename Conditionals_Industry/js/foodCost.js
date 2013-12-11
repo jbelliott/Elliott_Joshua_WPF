@@ -7,28 +7,28 @@ Conditionals: Industry
 
 //Collect variables for calculation
 
-var netSales = prompt("Please enter your net sales for the week.");
-if (netSales == ""){
-    netSales = prompt("You must enter your net sales to continue!", 10000);
-    if (netSales == ""){
-        alert("We are declaring net sales to be $10,000.");
-        netSales = 10000;
+var netSales = prompt("Please enter your net sales for the week."); //Net sales for the week
+if (netSales == ""){   //Conditional testing user input
+    netSales = prompt("You must enter your net sales to continue!", 10000);   //Second request for data
+    if (netSales == ""){   //Conditional testing user input
+        alert("We are declaring net sales to be $10,000.");   //Alert auto-assigning value
+        netSales = 10000;   //Auto-assigned value
     }
 }
-var inventoryActual = prompt("Please enter the value of your inventory used this week.");
-if (inventoryActual == ""){
-    inventoryActual = prompt("You must enter your actual closing inventory dollars to continue!", 2500);
-    if (inventoryActual == ""){
-        alert("We will assume that you used $2500 this week.");
-        inventoryActual = 2500;
+var inventoryActual = prompt("Please enter the value of your inventory used this week.");   //Dollar values used in inventory
+if (inventoryActual == ""){   //Conditional testing user input
+    inventoryActual = prompt("You must enter your actual closing inventory dollars to continue!", 2500);  //Second request for data
+    if (inventoryActual == ""){   //Conditional testing user input
+        alert("We will assume that you used $2500 this week.");   //Alert auto-assigning value
+        inventoryActual = 2500;   //Auto-assigned value
     }
 }
-var cosPercent = 25;
+var cosPercent = 25; //Percentage allowed for food cost
 
 
 //Calculate Cost of Sales to compare if within allowable variance
-var salesCost = (inventoryActual / netSales);
-var cosTarget = netSales * (cosPercent/100);
+var salesCost = (inventoryActual / netSales); //Calculates the percentage of inventory used
+var cosTarget = netSales * (cosPercent/100);  //Calculates the target to compare usage against
 
 //Conditionals to determine if CoS is within variance
 if (salesCost * netSales < cosTarget){
