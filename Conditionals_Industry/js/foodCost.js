@@ -32,7 +32,7 @@ var cosTarget = netSales * (cosPercent/100);  //Calculates the target to compare
 
 //Conditionals to determine if CoS is within variance
 if (salesCost * netSales < cosTarget){
-    alert("Your food cost is on target. Good job!  You made food by $" + Math.abs(cosTarget - salesCost * netSales));
+    console.log("Your food cost is on target. Good job!  You made food by $" + Math.abs(cosTarget - salesCost * netSales));
 }else{
-    alert("Your food cost is out by $" + Math.abs(cosTarget - salesCost * netSales));
+    console.log("Your food cost is out by $" + Math.abs(cosTarget - salesCost * netSales));
 }
