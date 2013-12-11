@@ -23,22 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index1.html">
+      <file leaf-file-name="index2.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="42" selection-start="110" selection-end="110" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
+            <state line="9" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.18934081" vertical-offset="0" max-vertical-offset="713">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gasCheck.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/gasCheck.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="911" selection-end="911" vertical-scroll-proportion="0.43508288" vertical-offset="0" max-vertical-offset="724">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +44,7 @@
       <list>
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/js/gasCheck.js" />
+        <option value="$PROJECT_DIR$/js/index2.html" />
       </list>
     </option>
   </component>
@@ -131,6 +121,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <list size="0" />
   </component>
@@ -185,19 +180,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="110" selection-end="110" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/gasCheck.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="1" selection-start="911" selection-end="911" vertical-scroll-proportion="0.43508288" vertical-offset="0" max-vertical-offset="724">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="110" selection-end="110" vertical-scroll-proportion="0.08415147" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.18934081" vertical-offset="0" max-vertical-offset="713">
+          <folding />
         </state>
       </provider>
     </entry>
