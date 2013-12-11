@@ -6,5 +6,7 @@ Conditionals Worksheet: Group 3
 //Ticket price is 12$ or 7$ for age 55+ or age < 10 or between 3pm or 5pm
 
 //Given age and time of movie
+var userAge = prompt("Please enter your age.");
+var movieTime = prompt("Please enter the time of your movie.");
 
 //Return cost of ticket based on information
