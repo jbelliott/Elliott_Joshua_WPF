@@ -7,8 +7,16 @@ Conditionals: Personal
 
 
 //Define and prompt user for information: number of outfits, number of shifts
-var numberOutfits;
-var numberShifts;
+var numberOutfits = prompt("How many CLEAN outfits do you have for work?");
+if (numberOutfits == ""){
+    numberOutfits = prompt("Invalid entry. Please enter how many outfits you have for work?",0);
+    if (numberOutfits == ""){
+        alert("We'll assume your hesitation to answer means 0.");
+    }
+}
+var numberShifts = prompt("How many shifts do you have before your next day off?");
+
+
 
 //Calculation to determine if user has enough outfits
 var doLaundry = numberShifts - numberOutfits;
