@@ -16,3 +16,13 @@ var correctPw = "tardis123";
 
 var enterUsername = prompt("Welcome to the U.N.I.T. login page. Please enter your username.");
 var enterPW = prompt("Please enter your password.");
+
+//Conditional test of user information
+
+if (enterUsername === correctUsername && enterPW === correctPW){
+    true
+}else if(enterUsername === correctUsername){
+    pw false
+}else{
+    user false
+}
