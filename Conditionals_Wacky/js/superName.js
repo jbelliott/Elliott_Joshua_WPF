@@ -15,8 +15,9 @@ if (goodBad == ""){
     whichSide = 1;
 }else{
     whichSide = 2;
+    alert("You are a villain.");
 }
-var randomNumber = prompt("Pick a number 1-5.")
+var randomNumber = prompt("Pick a number 1-5.");
 if (randomNumber == ""){
     randomNumber = prompt("Last chance to pick a number.");
     if (randomNumber == ""){
@@ -40,7 +41,22 @@ if (adjective == ""){
         }
     }
 }
-var nameNoun = prompt("Pick a noun for your name.");
-(nameNoun == "") ? nameNoun = "Goldfish";
+switch (randomNumber){
+    case 1:
+        nameNoun = "chicken";
+        break
+    case 2:
+        nameNoun = "swan";
+        break
+    case 3:
+        nameNoun = "mongoose";
+        break
+    case 4:
+        nameNoun = "badger";
+        break
+    default:
+        nameNoun = "lion";
+        break
+}
 
-alert("Your comic book name is \"The " + adjective + " nameNoun.");
+alert("Your comic book name is \"The " + adjective + " " + nameNoun + "\"");
