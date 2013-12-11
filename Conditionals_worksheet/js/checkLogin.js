@@ -7,3 +7,12 @@ Conditionals Worksheet: Group 2
 
 
 //welcome, username!   user not found. try again. password does not match our records
+
+//Correct username and password
+var correctUsername = "drwho";
+var correctPw = "tardis123";
+
+//Prompt for username and password
+
+var enterUsername = prompt("Welcome to the U.N.I.T. login page. Please enter your username.");
+var enterPW = prompt("Please enter your password.");
