@@ -23,19 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index2.html">
+      <file leaf-file-name="gasCheck.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/gasCheck.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkLogin.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/checkLogin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="110" selection-start="937" selection-end="937" vertical-scroll-proportion="0.42740843" vertical-offset="0" max-vertical-offset="737">
+            <state line="18" column="29" selection-start="927" selection-end="927" vertical-scroll-proportion="0.36635005" vertical-offset="0" max-vertical-offset="737">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -54,9 +45,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index1.html" />
-        <option value="$PROJECT_DIR$/js/gasCheck.js" />
         <option value="$PROJECT_DIR$/js/index2.html" />
         <option value="$PROJECT_DIR$/js/checkLogin.js" />
+        <option value="$PROJECT_DIR$/js/gasCheck.js" />
       </list>
     </option>
   </component>
@@ -192,15 +183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/gasCheck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="911" selection-end="911" vertical-scroll-proportion="0.43508288" vertical-offset="0" max-vertical-offset="724">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="42" selection-start="110" selection-end="110" vertical-scroll-proportion="0.08415147" vertical-offset="0" max-vertical-offset="713">
@@ -208,16 +190,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/checkLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="85" selection-start="563" selection-end="563" vertical-scroll-proportion="0.3256445" vertical-offset="0" max-vertical-offset="737">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+        <state line="9" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.18934081" vertical-offset="0" max-vertical-offset="713">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/checkLogin.js">
+    <entry file="file://$PROJECT_DIR$/js/gasCheck.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="110" selection-start="937" selection-end="937" vertical-scroll-proportion="0.42740843" vertical-offset="0" max-vertical-offset="737">
+        <state line="18" column="29" selection-start="927" selection-end="927" vertical-scroll-proportion="0.36635005" vertical-offset="0" max-vertical-offset="737">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
