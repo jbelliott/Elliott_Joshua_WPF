@@ -25,11 +25,7 @@ if (numberShifts == ""){   //Conditional to check user input
 }
 
 //Calculation to determine if user has enough outfits
-var doLaundry = numberShifts - numberOutfits;   //Calculate if there are enough outfits for the week.
+var doLaundry = numberShifts - numberOutfits;
 
-//Basic conditional argument to tell user if they need to do laundry or not, return result
-if (doLaundry <= 0){   //Conditional to check result of calculation
-    console.log("You do not need to do laundry today.");  //Result if outfits > shifts
-}else{
-    console.log("You will run out of laundry in " + doLaundry + " days. Grab the detergent and get cracking!");   //Result if shifts > outfits
-}
+//Ternary conditional argument to tell user if they need to do laundry or not, return result
+(doLaundry <= 0) ? console.log("You do not need to do laundry today.") : console.log("You will need to wash " + doLaundry + " outfits to make it to your next day off.");
