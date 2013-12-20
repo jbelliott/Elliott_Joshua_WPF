@@ -5,19 +5,21 @@ Functions Worksheet: Circumference of a Circle
 
 //Circumference of a Circle is = Diameter (radius * 2) * Pi (3.14)
 
-//Get the radius
+//Get the radius from user
 
 var cirRadius = prompt("Please enter the radius of the circle.");
 
 //Function to use for calculation
 
-function calcCircum(cirRad){
-    var cirPi = 3.14;
-    var circumCir = cirPi * 2 * cirRad;
-    return circumCir;
+function calcCircum(cirRad){  //Leaves it open for a parameter to be passed to the function
+    var cirPi = 3.14;  //Defines Pi
+    var circumCir = cirPi * 2 * cirRad;  //Calculates the circumference
+    return circumCir;  //Returns result
 }
 
-var circumCircle = calcCircum(cirRadius); 
+var circumCircle = calcCircum(cirRadius);  //Call function to utilize user input as argument
 
-alert("A circle with radius of " + cirRadius + " will have a circumference of " + circumCircle + ".");
+
+//Print the result to the console
+console.log("A circle with radius of " + cirRadius + " will have a circumference of " + circumCircle + ".");
 
