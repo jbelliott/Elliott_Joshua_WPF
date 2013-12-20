@@ -22,8 +22,11 @@ function calcHours(hrsSleep, hrsWork, hrsSchool){
 //Call function
 var hoursUsed = calcHours(hoursSleep, hoursWork, hoursSchool);
 
-//Conditional statement to determine if user will have free time this week
-if 
+//Conditional statement to determine if user will have free time this week, return result to user
+if (hoursUsed > hoursWeek){
+    console.log("You will not have any spare time this week.");
+}else{
+    var timeLeft = hoursWeek - hoursUsed;
+    console.log("You will have " + timeLeft + " hours left in your week.");
+}
 
-
-//Return result to user
