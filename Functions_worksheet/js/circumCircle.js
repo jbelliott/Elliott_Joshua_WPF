@@ -16,3 +16,10 @@ var cirPi = 3.14;
 //Set aside return variable for function to use.
 var circumCircle;
 
+function calcCircum(radius){
+    var cirPi = 3.14;
+    var circumference = cirPi * 2(radius);
+    return circumference;
+}
+
+alert(circumference);
