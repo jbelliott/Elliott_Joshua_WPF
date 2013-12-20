@@ -15,7 +15,7 @@ gameMechanics();
 
 //Collect user input
 var numberTotal = prompt("Finally, add the second number in your age to the total and type it below. \nExample: If you are 32, you would add 2 to your running total");
-if (numberTotal > 150 || numberTotal < 0){
+if (numberTotal > 150 || numberTotal < 6){
     alert("Your age cannot fall below 0 or exceed 150.");
 }
 
@@ -26,4 +26,4 @@ function calcAge(ageTotal){
 }
 var userAge = calcAge(numberTotal);
 
-alert(userAge);
+alert("Based on your result, you are " + userAge + " years old.");
