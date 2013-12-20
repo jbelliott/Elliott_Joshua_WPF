@@ -10,7 +10,9 @@ var victimWeight = prompt("Enter the weight of the animal victim being stung.");
 
 //Function created to calculate and return the number of stings
 function beeStings(victimLbs){
-    //code to calculate
+    var stings = 8.666666667;
+    var stingNumber = stings * victimLbs;
+    return stingNumber;
 }
 
 //Call function for use
