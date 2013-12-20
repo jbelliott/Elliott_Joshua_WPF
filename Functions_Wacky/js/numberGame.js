@@ -9,8 +9,10 @@ Functions: Wacky
 //Explain the game to the user
 var gameMechanics = function(){
     alert("Write your age on a piece of paper. Then, take the first digit and multiply it by 5. \nExample: If you are 32, you will multiply the 3 by 5.");
+    alert("Now, add 3 to that figure and then double it.");
 }
 gameMechanics();
+
 //Collect user input
 var numberTotal = prompt("Test");
 
