@@ -14,7 +14,7 @@ var gameMechanics = function(){
 gameMechanics();
 
 //Collect user input
-var numberTotal = prompt("Test");
+var numberTotal = prompt("Finally, add the second number in your age to the total and type it below. \nExample: If you are 32, you would add 2 to your running total");
 
 //Function to calculate the user's age
 function calcAge(ageTotal){
