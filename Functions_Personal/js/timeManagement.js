@@ -5,7 +5,7 @@ Functions: Personal
  */
 
 //This script will calculate how much free time (if any) based on user inputs.
-
+alert("There are 168 hours in a week. Let's see how much time you will have left.");
 
 //Collect variables from user to subtract from the number of hours in a week
 var hoursSleep = prompt("How many hours a night do you sleep?");
@@ -17,6 +17,7 @@ function calcHours(hrsSleep, hrsWork, hrsSchool){
     var totalHrs = Number(7 * hrsSleep) + Number(hrsWork) + Number(hrsSchool);
     return totalHrs;
 }
+
 //Call function
 var hoursUsed = calcHours(hoursSleep, hoursWork, hoursSchool);
 
