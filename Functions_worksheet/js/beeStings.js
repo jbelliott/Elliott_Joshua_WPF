@@ -9,10 +9,10 @@ Functions Worksheet: Bee Stings
 var victimWeight = prompt("Enter the weight of the animal victim being stung.");
 
 //Function created to calculate and return the number of stings
-function beeStings(victimLbs){
-    var stings = 8.666666667;
-    var stingNumber = stings * victimLbs;
-    return stingNumber;
+function beeStings(victimLbs){  //Argument provided by user input
+    var stings = 8.666666667;  //Constant Variable
+    var stingNumber = stings * victimLbs; //Calculating number of stings
+    return stingNumber;  //Return result from function
 }
 
 //Call function for use
