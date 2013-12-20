@@ -9,19 +9,14 @@ Functions Worksheet: Circumference of a Circle
 
 var cirRadius = prompt("Please enter the radius of the circle.");
 
-//Define Pi
+//Function to use for calculation
 
-var cirPi = 3.14;
-
-//Set aside return variable for function to use.
-var circumCircle;
-
-function calcCircum(radius){
+function calcCircum(parameters){
     var cirPi = 3.14;
     var circumference = cirPi * 2(radius);
     return circumference;
 }
 
-circumCircle = calCircum(cirRadius);
+var circumCircle = calcCircum(cirRadius);
 
 alert(circumCircle);
