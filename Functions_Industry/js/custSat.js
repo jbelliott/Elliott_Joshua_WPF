@@ -50,5 +50,5 @@ var avgScore = totalScore / 3;
 //Return results to user
 alert("Your customer rating is " + avgScore + " out of 10.");
 
-
+(avgScore == 10) ? console.log("Nice! A perfect score!"): console.log("Always room to grow.");
 
