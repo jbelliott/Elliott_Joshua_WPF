@@ -21,9 +21,9 @@ if (numberTotal > 150 || numberTotal < 6){  //Conditional check for user informa
 
 //Function to calculate the user's age
 function calcAge(ageTotal){
-    var userAge = ageTotal - 6;
+    var userAge = ageTotal - 6; //Any total when following these steps will arrive 6 above their true age
     return userAge;
 }
 var userAge = calcAge(numberTotal); //Call Function to calculate user's age
 
-alert("Based on your result, you are " + userAge + " years old.");  //Output to guess the user's age
+console.log("Based on your result, you are " + userAge + " years old.");  //Output to guess the user's age
