@@ -22,4 +22,6 @@ function calcCircum(radius){
     return circumference;
 }
 
-alert(circumference);
+circumCircle = calCircum(cirRadius);
+
+alert(circumCircle);
