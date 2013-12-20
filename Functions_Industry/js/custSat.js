@@ -17,6 +17,16 @@ if (scoreAccuracy < 0){
     }
 }
 
+var scoreQuality = prompt("Please enter your quality score (0-30)");
+if (scoreQuality < 0){
+    scoreQuality = 0;
+}else if (scoreQuality > 30){
+    scoreQuality = prompt("Value outside of the range. Please re-enter (0-30)");
+    if (scoreQuality > 30){
+        scoreQuality = 30;
+    }
+}
+
 
 //Static values for score targets
 
