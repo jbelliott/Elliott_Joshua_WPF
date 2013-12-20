@@ -43,4 +43,12 @@ function guestCheck(acc, qual, hosp){
     return totalScore;
 }
 
-//
+//Call Function
+var totalScore = guestCheck(scoreAccuracy, scoreQuality, scoreHospitality);
+var avgScore = totalScore / 3;
+
+//Return results to user
+alert("Your customer rating is " + avgScore + " out of 10.");
+
+
+
