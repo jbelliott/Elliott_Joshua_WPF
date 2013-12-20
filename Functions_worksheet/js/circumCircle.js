@@ -17,7 +17,7 @@ function calcCircum(cirRad){
     return circumCir;
 }
 
-var circumCircle = calcCircum(cirRadius);
+var circumCircle = calcCircum(cirRadius); 
 
-alert(circumCircle);
+alert("A circle with radius of " + cirRadius + " will have a circumference of " + circumCircle + ".");
 
